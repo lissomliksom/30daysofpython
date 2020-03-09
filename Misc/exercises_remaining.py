@@ -17,8 +17,8 @@ days_remaining = int(date_end[:2]) - int(date_current[:2])
 
 # List remaining exercises in all remaining chapters
 exercises = {
-  'Chapter 6': 6,
-  'Chapter 7': 10,
+  'Chapter 6': 0,
+  'Chapter 7': 5,
   'Chapter 8': 17,
   'Chapter 9': 16,
   'Chapter 10': 13,
