@@ -1,11 +1,10 @@
 prompt = "Tell me your age and I will tell you the price of your movie ticket: "
 message = "Your movie ticket will cost "
 
-age = input(prompt)
-age = int(age)
-
 while True:
-  print(age)
+  age = input(prompt)
+  age = int(age)
+  
   if age < 3:
     print("Your movie ticket is free!")
   elif age >= 3 and age <= 12:
