@@ -7,8 +7,7 @@ def make_album(artist_name, album_title, tracks=None):
   return music
 
 # Allow users to input info about albums.
-active = True
-while active:
+while True:
   print("\nInsert artist, album and tracks(optional).")
   print("Enter 'q' at any time to quit.")
 
